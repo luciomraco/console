@@ -1,0 +1,7 @@
+function removeDuplicates(array) {
+    return [...new Set(array)];
+}
+
+let numbers = [1, 2, 3, 4, 1, 2, 5];
+let uniqueArray = removeDuplicates(numbers);
+console.log("Array with duplicates removed:", uniqueArray);
